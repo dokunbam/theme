@@ -1,0 +1,42 @@
+<div class="container">
+    <div class="row p-4">
+        <div class="col-md-4"></div>
+        <div class="col-md-4 p-4" style="background-color: #eaecef;">
+            <form action="/guests/register" enctype="multipart/form-data" method="post">
+                <p>Please Register here </p>
+
+                <div class="form-group">
+                    <label>Username</label>
+                    <input type="text" aria-label="username" name="username" id="username" placeholder="Username"
+                        class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" aria-label="email" name="email" id="email" placeholder="Email"
+                        class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label>Phone Number</label>
+                    <input type="number" name="phone" aria-label="phone" id="phone" placeholder="Phone"
+                        class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" name="password" aria-label="password" id="password" placeholder="Password"
+                        class="form-control">
+                </div>
+
+
+                <button type="submit" class="btn btn-primary">Register</button>
+                <a class="btn btn-primary btn-group text-white" id="productbtn" href="/guests/login">Login</a>
+            </form>
+        </div>
+
+
+        <div class="col-md-4">
+        </div>
+    </div>
+</div>
